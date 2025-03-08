@@ -10,8 +10,8 @@ int main()
 
     while (i<=N)
     {
-        printf("%d\n", i);
-        i+=2;
+        printf("%d\n", 2*i-1);
+        i++;
     }
     return 0;
 }

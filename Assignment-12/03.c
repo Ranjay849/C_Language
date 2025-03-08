@@ -4,11 +4,11 @@
 
 int main()
 {
-    int i=1, N;
+    int N;
     printf("Enter the value for N: ");
     scanf("%d", &N);
 
-    while (N>=i)
+    while (N>=1)
     {
         printf("%d\n", N);
         N--;

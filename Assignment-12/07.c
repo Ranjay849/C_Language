@@ -4,16 +4,13 @@
 
 int main()
 {
-    int i=2, N;
+    int N;
     printf("Enter the value for N: ");
     scanf("%d", &N);
 
-    while (N>=i)
+    while (N>=1)
     {
-        if (N%2==0)
-        {
-        printf("%d\n", N);
-        }
+        printf("%d\n", 2*N);
         N--;
     }
     return 0;
