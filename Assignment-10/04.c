@@ -4,25 +4,25 @@
 
 int main()
 {
-    int n;
+    int m;
     printf("Enter the month number: ");
-    scanf("%d", &n);
+    scanf("%d", &m);
 
-    if (n==4 || n==6 || n==9 || n==11)
-    {
-        printf("30 Days");
-    }
-    else if (n==2)
-    {
-        printf("28 Days or (29 Days in Leap Year)");
-    }
-    else if (n>=1 && n<=12)
+    if (m==1 || m==3 || m==5 || m==7 || m==10 || m==12)
     {
         printf("31 Days");
     }
+    else if (m==4 || m==6 || m==9 || m==11)
+    {
+        printf("30 Days");
+    }
+    else if (m==2)
+    {
+        printf("28 or 29 Days");
+    }
     else
     {
-        printf("Please enter a valid month number (1-12)");
+        printf("Invalid Month number");
     }
     return 0;
 }
