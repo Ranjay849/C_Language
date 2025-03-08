@@ -5,38 +5,11 @@
 // 1st Technique (Solved by me)
 int main()
 {
-    int n=2;
-    while (n<=20)
+    int n=1;
+    while (n<=10)
     {
-        if (n%2==0)
-        {
-            printf("%d\n", n);
-        }
+        printf("%d\n", 2*n);
         n++;
     }
     return 0;
 }
-
-// 2nd Technique
-// int main()
-// {
-//     int n=2;
-//     while (n<=20)
-//     {
-//         printf("%d\n", n);
-//         n+=2;
-//     }
-//     return 0;
-// }
-
-// 3rd Technique
-// int main()
-// {
-//     int n=1;
-//     while (n<=10)
-//     {
-//         printf("%d\n", 2*n);
-//         n++;
-//     }
-//     return 0;
-// }
