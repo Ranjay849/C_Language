@@ -10,8 +10,8 @@ int main()
 
     while (i<=N)
     {
-        Sum=Sum+i;
-        i+=2;
+        Sum=Sum+2*i-1;
+        i++;
     }
     printf("Sum = %d", Sum);
     return 0;

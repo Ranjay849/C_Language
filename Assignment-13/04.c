@@ -4,14 +4,13 @@
 
 int main()
 {
-    int i=1, N, Sum=0, S;
+    int i=1, N, Sum=0;
     printf("Enter the value for N: ");
     scanf("%d", &N);
 
     while (i<=N)
     {
-        S=i*i;
-        Sum=Sum+S;
+        Sum=Sum+i*i;
         i++;
     }
     printf("Sum = %d", Sum);
